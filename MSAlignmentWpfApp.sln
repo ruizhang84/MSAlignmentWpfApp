@@ -5,6 +5,8 @@ VisualStudioVersion = 15.0.28307.757
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MSAlignmentWpfApp", "MSAlignmentWpfApp\MSAlignmentWpfApp.csproj", "{050A6592-20F9-4376-A704-E89945311410}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MSAlignmentClassLibrary", "MSAlignmentClassLibrary\MSAlignmentClassLibrary.csproj", "{6B805C60-FC54-4D90-A88B-141947E3BE54}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{050A6592-20F9-4376-A704-E89945311410}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{050A6592-20F9-4376-A704-E89945311410}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{050A6592-20F9-4376-A704-E89945311410}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6B805C60-FC54-4D90-A88B-141947E3BE54}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6B805C60-FC54-4D90-A88B-141947E3BE54}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6B805C60-FC54-4D90-A88B-141947E3BE54}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6B805C60-FC54-4D90-A88B-141947E3BE54}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
