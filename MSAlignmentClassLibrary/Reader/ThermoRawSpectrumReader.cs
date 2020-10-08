@@ -1,4 +1,5 @@
-﻿using MSAlignmentWpfApp.Spectrum;
+﻿using MSAlignmentClassLibrary.Reader;
+using MSAlignmentClassLibrary.Spectrum;
 using MSFileReaderLib;
 using System;
 using System.Collections.Generic;
@@ -6,7 +7,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace MSAlignmentWpfApp.Reader
+namespace MSAlignmentClassLibrary.Reader
 {
     public class ThermoRawSpectrumReader : ISpectrumReader
     {
