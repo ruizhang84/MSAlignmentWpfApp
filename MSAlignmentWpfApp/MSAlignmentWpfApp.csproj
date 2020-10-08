@@ -55,12 +55,6 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </ApplicationDefinition>
-    <Compile Include="Reader\ISpectrumReader.cs" />
-    <Compile Include="Reader\ThermoRawSpectrumReader.cs" />
-    <Compile Include="Spectrum\GeneralPeak.cs" />
-    <Compile Include="Spectrum\GeneralSpectrum.cs" />
-    <Compile Include="Spectrum\IPeak.cs" />
-    <Compile Include="Spectrum\ISpectrum.cs" />
     <Page Include="MainWindow.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
