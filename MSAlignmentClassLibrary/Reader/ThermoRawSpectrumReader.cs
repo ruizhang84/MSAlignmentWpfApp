@@ -45,9 +45,17 @@ namespace MSAlignmentClassLibrary.Reader
             return msnOrder;
         }
 
+        public double GetRetentionTime(int scanNum)
+        {
+            double retention = 0;
+            rawConnect.RTFromScanNum(scanNum, ref retention);
+            return retention;
+        }
+
         public ISpectrum GetSpectrum(int scanNum)
         {
-            ISpectrum spectrum = new GeneralSpectrum(scanNum);
+            double retention = GetRetentionTime(scanNum);
+            ISpectrum spectrum = new GeneralSpectrum(scanNum, retention);
 
             string szFilter = "";
             int pnScanNumber = scanNum;

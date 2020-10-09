@@ -9,11 +9,13 @@ namespace MSAlignmentClassLibrary.Spectrum
     public class GeneralSpectrum : ISpectrum
     {
         protected int scanNum;
+        protected double retention;
         protected List<IPeak> peaks;
 
-        public GeneralSpectrum(int scanNum)
+        public GeneralSpectrum(int scanNum, double retention)
         {
             this.scanNum = scanNum;
+            this.retention = retention;
             peaks = new List<IPeak>();
         }
         public void Add(IPeak peak)
@@ -28,6 +30,11 @@ namespace MSAlignmentClassLibrary.Spectrum
         public List<IPeak> GetPeaks()
         {
             return peaks;
+        }
+
+        public double GetRetention()
+        {
+           return retention;
         }
 
         public int GetScanNum()

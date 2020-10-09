@@ -13,5 +13,6 @@ namespace MSAlignmentClassLibrary.Spectrum
         void Add(IPeak peak);
         void Clear();
         int GetScanNum();
+        double GetRetention();
     }
 }

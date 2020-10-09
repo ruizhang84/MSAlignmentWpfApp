@@ -13,6 +13,7 @@ namespace MSAlignmentClassLibrary.Reader
         int GetFirstScan();
         int GetLastScan();
         int GetMSnOrder(int scanNum);
+        double GetRetentionTime(int scanNum);
         ISpectrum GetSpectrum(int scanNum);
     }
 }

@@ -9,6 +9,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MSAlignmentClassLibrary", "
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MSAlignmentConsoleApp", "MSAlignmentConsoleApp\MSAlignmentConsoleApp.csproj", "{EFC88969-5348-48F9-9CA3-56A21779E91E}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MSAlignmentUnitTest", "MSAlignmentUnitTest\MSAlignmentUnitTest.csproj", "{96E5489C-0EE3-4D8B-9548-80F9C66D00FB}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +29,10 @@ Global
 		{EFC88969-5348-48F9-9CA3-56A21779E91E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{EFC88969-5348-48F9-9CA3-56A21779E91E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{EFC88969-5348-48F9-9CA3-56A21779E91E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{96E5489C-0EE3-4D8B-9548-80F9C66D00FB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{96E5489C-0EE3-4D8B-9548-80F9C66D00FB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{96E5489C-0EE3-4D8B-9548-80F9C66D00FB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{96E5489C-0EE3-4D8B-9548-80F9C66D00FB}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
