@@ -8,6 +8,11 @@ namespace MSAlignmentClassLibrary.Finder
 {
     public class MSFinder : IFinder
     {
+        public MSFinder(double ppm)
+        {
+            tol = ppm;
+        }
+
         public static readonly double[] Glucose 
             = { 470.2727, 674.3725, 878.4723, 1082.572, 1286.6718, 1490.7716,
             1694.8714, 1898.9711, 2103.0709, 2307.1707, 2511.2704};
