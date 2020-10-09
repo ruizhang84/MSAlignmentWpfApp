@@ -31,7 +31,8 @@ namespace MSAlignmentClassLibrary.Engine
                     ISpectrum spectrum = reader.GetSpectrum(i);
                     process.Process(spectrum);
                     int units = finder.FindGlucoseUnits(spectrum);
-                    sequence[i] = units;
+                    if (units > 0)
+                        sequence[i] = units;
                 }
 
             }

@@ -19,7 +19,7 @@ namespace MSAlignmentConsoleApp
         {
             string basePath = @"C:\Users\Rui Zhang\Downloads\Serum_1_C18_03292019_Ali.raw";
             string alignedPath = @"C:\Users\Rui Zhang\Downloads\Serum_1_C18_04142019.raw";
-            string output = @"C:\Users\Rui Zhang\Downloads\aligned.csv";
+            string output = @"C:\Users\Rui Zhang\Downloads\aligned2.csv";
 
             ISequencer sequencer = new SpectraSequencer();
 
